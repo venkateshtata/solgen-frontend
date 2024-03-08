@@ -1,0 +1,7 @@
+.musicFeed {
+    max-height: 100vh; /* Adjust based on header height or other UI elements if necessary */
+    overflow-y: auto; /* Enables vertical scrolling */
+    flex: 3;
+    padding: 30px;
+    margin: 20px;
+  }

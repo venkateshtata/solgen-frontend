@@ -1,0 +1,61 @@
+.differentContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+    padding: 20px; /* Provides padding around the content */
+  }
+  
+  .differentContent {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Provides spacing between elements */
+    width: 100%; /* Ensures the container takes full parent width */
+    max-width: 600px; /* Maximum width of the container */
+  }
+  
+  .differentContent button, .differentContent textarea {
+    width: 100%; /* Makes elements take full container width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .differentContent button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .differentContent textarea {
+    resize: none; /* Disables resizing */
+    min-height: 140px; /* Adjusted for about 5 lines */
+  }
+  
+  .buttonsRow {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+  }
+  
+  .uploadButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .uploadButton:hover {
+    background-color: #45a049;
+  }
+  
+  .actionButton {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .actionButton:hover {
+    background-color: #007B9;
+  }
+  
